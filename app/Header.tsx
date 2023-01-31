@@ -13,6 +13,12 @@ function Header() {
       >
         Todos
       </Link>
+      <Link
+        className="px-2 py-1 ml-1 bg-white text-blue-500 rounded-lg"
+        href="/search"
+      >
+        Search
+      </Link>
     </header>
   );
 }
